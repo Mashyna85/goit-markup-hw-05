@@ -103,11 +103,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
+
 }
 
 .header-list-contact {
@@ -117,6 +119,7 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   display: flex;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list-contact:hover,
@@ -139,6 +142,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact:hover,
@@ -195,6 +199,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .first-sec-button:hover,
@@ -293,12 +299,6 @@ ul {
   margin-bottom: 72px;
 }
 
-.duing-img-computer {}
-
-.duing-img-iphone {}
-
-.duing-img-hand {}
-
 /* -- команда -- */
 
 .section-team {
@@ -376,6 +376,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .teem-soc-icon {
@@ -427,6 +428,7 @@ ul {
   align-items: center;
   justify-content: center;
   color: #AFB1B8;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .costomers-soc-link:hover,
@@ -524,6 +526,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-link:hover,
@@ -570,6 +573,7 @@ ul {
   padding-bottom: 12px;
   padding-left: 24px;
   padding-right: 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-button:hover,
@@ -582,6 +586,7 @@ ul {
 
 .portfolio-list-item {
   margin-bottom: 4px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover,
