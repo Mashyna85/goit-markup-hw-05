@@ -25,7 +25,8 @@
                     <span class="second-part-logo-link">STUDIO</span>
                 </a>
                 <ul class="header-list list">
-                    <li class="header-item"><span class="heder-link-index"><a class="header-link link" href="./index.html">Studio</a></span></li>
+                    <li class="header-item"><span class="heder-link-index"><a class="header-link link"
+                                href="./index.html">Studio</a></span></li>
                     <li class="header-item"><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
                     <li class="header-item"><a class="header-link link" href="">Contacts</a></li>
                 </ul>
@@ -46,7 +47,10 @@
         <section class="first-sec">
             <div class="container">
                 <h1 class="first-sec-text">Effective Solutions <br> Your Business</h1>
-                <button class="first-sec-button" type="">Order Service</button>
+                <button class="first-sec-button" type="button" data-modal-open>Order Service</button>
+            </div>
+            <div class="backdrop is-hiden" data-modal>
+                <div class="modal"><button class="modal-button" type="button" data-modal-close></button></div>
             </div>
         </section>
 
@@ -69,13 +73,13 @@
                     <li class="services-list-item">
                         <h3 class="services-title">Diligence</h3>
                         <p class="services-paragraf">Research and confirm brands that present the strongest digital
-                        growth opportunities and minimize risk.</p>
+                            growth opportunities and minimize risk.</p>
                     </li>
                     <li class="services-list-item">
                         <h3 class="services-title">Technologies</h3>
                         <p class="services-paragraf">Design practice focused on digital experiences. We bring forth
-                        a
-                        deep passion for problem-solving.</p>
+                            a
+                            deep passion for problem-solving.</p>
                     </li>
                 </ul>
             </div>
@@ -355,6 +359,7 @@
             </div>
         </div>
     </footer>
+    <script src="./modal.js"></script>
 </body>
 
 </html>
