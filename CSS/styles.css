@@ -257,7 +257,10 @@ ul {
   left: 50%;
   transform: translate(-50%,-50%);
   }
-
+.modal-button{
+  width: 24px;
+  height: 24px;
+}
 
 
   /* Інформація про переваги */
